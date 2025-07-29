@@ -16,6 +16,8 @@ app.get('/', (req, res) => {
     res.status(200).json(response);
 });
 
+
+
 const PORT = process.env.PORT || 3000; 
 app.listen(PORT,()=>{
     console.log('Sistema inicializado: ', `Acesso: http://localhost:${PORT}`);
