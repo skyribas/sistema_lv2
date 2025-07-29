@@ -88,7 +88,7 @@ CREATE TABLE `veiculo` (
   `ano_modelo` int DEFAULT NULL,
   `cor` varchar(50) DEFAULT NULL,
   `num_portas` int DEFAULT NULL,
-  `foto` varchar(255) DEFAULT NULL,
+  `fotos` JSON DEFAULT NULL,
   `categoria_id` int DEFAULT NULL,
   `montadora_id` int DEFAULT NULL,
   `tipo_cambio` varchar(50) DEFAULT NULL,
