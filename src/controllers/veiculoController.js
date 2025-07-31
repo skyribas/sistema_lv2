@@ -20,6 +20,7 @@ export const cadastrar = async (req, res) => {
                 message: 'Dados do veículo incompletos ou inválidos'
             });
         }
+        
         const novoVeiculo = await Veiculo.cadastrar(veiculo);   
         res.status(201).json({
             success: true,
