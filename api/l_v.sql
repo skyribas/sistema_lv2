@@ -99,6 +99,8 @@ CREATE TABLE `veiculo` (
 
 --
 -- Despejando dados para a tabela `veiculo`
+
+  
 --
 
 
